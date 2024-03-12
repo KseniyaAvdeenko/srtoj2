@@ -1,0 +1,125 @@
+.producers {
+    margin-bottom: 120px;
+}
+
+.top__items {
+    margin-bottom: 70px;
+}
+
+.top__items>img {
+    height: 185px;
+    width: auto;
+}
+
+.bottom__items > img{
+    height: auto;
+    width: 230px;
+}
+
+
+
+@media all and (max-device-width: 1440px) {
+    .top__items>img {
+        height: 165px;
+        width: auto;
+    }
+    
+    .bottom__items  > img{
+        height: auto;
+        width: 210px;
+    }
+}
+
+@media all and (max-device-width: 1024px) {
+    .top__items>img {
+        height: 145px;
+        width: auto;
+    }
+    
+    .bottom__items  > img{
+        height: auto;
+        width: 190px;
+    }
+    .producers__title {
+        font-size: var(--font-xxl);
+    }
+}
+
+@media all and (max-device-width: 840px) {
+    .top__items>img {
+        height: 125px;
+        width: auto;
+    }
+    
+    .bottom__items  > img{
+        height: auto;
+        width: 170px;
+    }
+    .producers__title {
+        font-size: var(--font-xl);
+    }
+}
+
+@media all and (max-device-width: 540px) {
+    .top__items>img {
+        height: 105px;
+        width: auto;
+    }
+    
+    .bottom__items  > img{
+        height: auto;
+        width: 150px;
+    }
+    .producers__title {
+        font-size: var(--font-l);
+        margin-bottom: 40px;
+    }
+    .producers {
+        margin-bottom: 80px;
+    }
+    .producers .container {
+        padding: 0 30px;
+        width: 100%;
+    }
+}
+
+@media all and (max-device-width: 431px) {
+    .top__items>img {
+        height: 80px;
+        width: auto;
+    }
+
+    .bottom__items  > img{
+        height: 50px;
+        width: auto;
+    }
+}
+
+@media all and (max-device-width: 414px) {
+    .top__items>img {
+        height: 70px;
+        width: auto;
+    }
+
+    .bottom__items  > img{
+        height: 40px;
+        width: auto;
+    }
+}
+
+
+@media all and (max-device-width: 375px) {
+    .top__items>img {
+        height: 60px;
+        width: auto;
+    }
+
+    .bottom__items  > img{
+        height: 30px;
+        width: auto;
+    }
+    .producers__title {
+        font-size: var(--font-m);
+        margin-bottom: 30px;
+    }
+}

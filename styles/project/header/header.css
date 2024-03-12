@@ -1,0 +1,130 @@
+.header {
+    padding: 30px 0;
+}
+
+.header .container {
+    flex-basis: 60.9%;
+}
+
+.nav__menu {
+    flex-basis: 50%;
+}
+
+.header__contacts {
+    flex-basis: 20%;
+    font-size: var(--font-m);
+    font-family: var(--font-family-extra);
+}
+
+
+.w-hours {
+    text-align: end;
+}
+
+.phone__icon {
+    margin-right: 16px;
+}
+
+.menu__link {
+    font-size: var(--font-m);
+    font-family: var(--font-family-extra);
+}
+
+.menu__link:hover {
+    color: var(--white-color);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.nav-menu__media {
+    cursor: pointer;
+    display: none;
+}
+
+@media all and (max-device-width: 1680px) {
+    .header .container {
+        flex-basis: 65%;
+    }
+}
+
+@media all and (max-device-width: 1530px) {
+    .header .container {
+        flex-basis: 70%;
+    }
+}
+
+@media all and (max-device-width: 1440px) {
+    .header .container {
+        flex-basis: 75%;
+    }
+}
+
+@media all and (max-device-width: 1371px) {}
+
+@media all and (max-device-width: 1280px) {
+    .header .container {
+        flex-basis: 80%;
+    }
+}
+
+@media all and (max-device-width: 1080px) {
+    .header .container {
+        flex-basis: 90%;
+    }
+    .nav__menu {
+        flex-basis: 60%;
+    }
+}
+
+@media all and (max-device-width: 1024px) {
+    .header__contacts {
+        font-size: var(--font-s);
+    }
+}
+
+@media all and (max-device-width: 840px) {
+    .nav__menu {
+        display: none;
+    }
+
+    .nav-menu__media {
+        display: flex;
+    }
+
+    .nav-menu__icon {
+        align-self: start;
+    }
+
+    .header .container {
+        align-items: flex-start;
+    }
+}
+
+@media all and (max-device-width: 744px) {}
+
+@media all and (max-device-width: 540px) {
+    .header .container {
+        flex-basis: 100%;
+    }
+    .header {
+        padding: 30px;
+        border-bottom: 2px solid #f3bd63;
+    }
+}
+
+@media all and (max-device-width: 431px) {
+    .header__contacts {
+        font-size: var(--font-xs);
+    }
+}
+
+@media all and (max-device-width: 414px) {}
+
+@media all and (max-device-width: 390px) {}
+
+@media all and (max-device-width: 375px) {
+    .header__contacts {
+        font-size: var(--font-xxs);
+    }
+}
+

@@ -1,0 +1,317 @@
+.smesy,
+.lot-blocks,
+.peremychky-zhb,
+.ptm,
+.well,
+.fbs,
+.borders-trotuar,
+.bricks,
+.blocks {
+    margin: 70px 0 130px;
+}
+
+.listed_list {
+    list-style-type: disc;
+    list-style-position: outside;
+    margin-left: 30px;
+}
+
+.material-name {
+    font-size: var(--font-xl);
+    font-family: var(--font-family-extra);
+}
+
+.material__sizes,
+.material__text {
+    font-family: var(--font-family-regular);
+    font-size: var(--font-xl);
+}
+
+.matetial-text_size {
+    width: 80%;
+}
+
+.blok-text-5>.material-name {
+    width: 83%;
+}
+
+.brick__img {
+    width: 242px;
+    height: 158px;
+}
+
+.bricks>.container :last-child>.material-name {
+    width: 77%;
+}
+
+.lot-blocks>.container>.blocks-info.text-1>.material-name {
+    width: 98%;
+}
+
+.instructions>.text-7 {
+    width: 90%;
+}
+
+.instructions>.text-8 {
+    width: 90%;
+}
+
+.instructions>.text-9 {
+    width: 85%;
+}
+
+.instructions>.text-10 {
+    width: 90%;
+}
+
+.blocks-info {
+    width: 100%;
+}
+
+.block-info__img {
+    width: 470px;
+    height: auto;
+}
+
+.smesy>.container>.material-item,
+.lot-blocks>.container>.material-item,
+.peremychky-zhb>.container>.material-item,
+.ptm>.container>.material-item,
+.well>.container>.material-item,
+.fbs>.container>.material-item,
+.borders-trotuar>.container>.material-item,
+.bricks>.container>.material-item,
+.blocks>.container>.material-item {
+    margin-bottom: 20px;
+}
+
+
+@media all and (max-device-width: 1080px) {
+
+    .material__size,
+    .material__text,
+    .material-name {
+        font-size: var(--font-l);
+    }
+
+    .material-title {
+        font-size: var(--font-l);
+    }
+
+    .brick__img {
+        width: 200px;
+    }
+}
+
+@media all and (max-device-width: 1024px) {}
+
+@media all and (max-device-width: 840px) {
+
+    .material__size,
+    .material__text,
+    .material-name {
+        font-size: var(--font-l);
+    }
+
+    .title-media {
+        font-size: var(--font-m);
+    }
+
+    .smesy>.container>.material-item,
+    .lot-blocks>.container>.material-item,
+    .peremychky-zhb>.container>.material-item,
+    .ptm>.container>.material-item,
+    .well>.container>.material-item,
+    .fbs>.container>.material-item,
+    .borders-trotuar>.container>.material-item,
+    .bricks>.container>.material-item,
+    .blocks>.container>.material-item {
+        margin-bottom: 40px;
+    }
+
+    .brick__img {
+        width: 150px;
+    }
+
+    .block-info__img {
+        width: 370px;
+        height: auto;
+    }
+}
+
+@media all and (max-device-width: 744px) {}
+
+@media all and (max-device-width: 540px) {
+
+    .smesy,
+    .lot-blocks,
+    .peremychky-zhb,
+    .ptm,
+    .well,
+    .fbs,
+    .borders-trotuar,
+    .bricks,
+    .blocks {
+        margin: 50px 0 100px;
+    }
+
+    .material__size,
+    .material__text,
+    .material-name {
+        font-size: var(--font-s);
+    }
+
+    .material-title {
+        font-size: var(--font-m);
+    }
+
+    .bricks>.container :last-child>.material-name {
+        width: 100%;
+    }
+
+    .title-media {
+        font-size: var(--font-m);
+    }
+
+    .smesy>.container>.material-item,
+    .lot-blocks>.container>.material-item,
+    .peremychky-zhb>.container>.material-item,
+    .ptm>.container>.material-item,
+    .well>.container>.material-item,
+    .fbs>.container>.material-item,
+    .borders-trotuar>.container>.material-item,
+    .bricks>.container>.material-item,
+    .blocks>.container>.material-item {
+        margin-bottom: 30px;
+    }
+    .material-name.mb_40,
+    .material-name.mb_50,
+    .material__sizes.mb_30,
+    .blocks-info.mb_30,
+    .material-name.mb_30,
+    .material__text.mb_30 {
+        margin-bottom: 15px;
+    }
+
+    .material__text.mb_80,
+    .materials.mb_50,
+    .blocks-info__items.mb_80,
+    .blocks-info__items.mb_50,
+    .blocks-info.mb_80,
+    .blocks-info.mb_50,
+    .material__sizes.mb_58,
+    .material-item.mb_50 {
+        margin-bottom: 30px;
+    }
+
+    .smesy .container,
+    .lot-blocks .container,
+    .peremychky-zhb .container,
+    .ptm .container,
+    .well .container,
+    .fbs .container,
+    .borders-trotuar .container,
+    .bricks .container,
+    .blocks .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .materials>.material-item>.material-name {
+        width: 80%;
+    }
+
+    .block-info__img {
+        width: 210px;
+    }
+    #fbsTitle {
+        display: none;
+    }
+    #fbsSubtitle {
+        width: 92%;
+    }
+}
+
+@media all and (max-device-width: 431px) {}
+
+@media all and (max-device-width: 414px) {
+
+    .material__size,
+    .material__text,
+    .material-name {
+        font-size: var(--font-xs);
+    }
+
+    .material-title {
+        font-size: var(--font-s);
+    }
+
+    .brick__img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media all and (max-device-width: 390px) {}
+
+@media all and (max-device-width: 375px) {
+
+    .smesy,
+    .lot-blocks,
+    .peremychky-zhb,
+    .ptm,
+    .well,
+    .fbs,
+    .borders-trotuar,
+    .bricks,
+    .blocks {
+        margin: 30px 0;
+    }
+
+    .material__size,
+    .material__text,
+    .material-name {
+        font-size: var(--font-xxs);
+    }
+
+    .material-title {
+        font-size: var(--font-xs);
+    }
+
+    .blok-text-5>.material-name {
+        width: 104%;
+    }
+
+    .bricks>.container :last-child>.material-name {
+        width: 75%;
+    }
+
+    .bricks>.container :last-child>.material-name {
+        width: 74%;
+    }
+
+    .title-media {
+        font-size: var(--font-s);
+    }
+
+    .smesy>.container>.material-item,
+    .lot-blocks>.container>.material-item,
+    .peremychky-zhb>.container>.material-item,
+    .ptm>.container>.material-item,
+    .well>.container>.material-item,
+    .fbs>.container>.material-item,
+    .borders-trotuar>.container>.material-item,
+    .bricks>.container>.material-item,
+    .blocks>.container>.material-item {
+        margin-bottom: 20px;
+    }
+
+    .blocks>.container>.blocks-info.blok-text-1 :first-child {
+        width: 80%;
+    }
+
+    .brick__img {
+        width: 85px;
+    }
+
+}

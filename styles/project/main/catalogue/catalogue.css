@@ -1,0 +1,304 @@
+.catalogue {
+    margin-bottom: 120px;
+}
+
+.materials__items {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-auto-rows: max-content;
+    column-gap: 10px;
+    row-gap: 70px;
+    justify-content: space-between;
+}
+
+.material__name {
+    text-align: center;
+}
+
+#prod-7>.material__name {
+    width: 104%;
+}
+
+.catalogue__subtitle {
+    text-align: center;
+    width: 60%;
+}
+
+.material__item {
+    color: var(--white-color);
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 370px;
+    justify-items: center;
+}
+
+#prod-3>.material_img {
+    width: auto;
+    height: 290px;
+}
+.material_img,
+#prod-1>.material_img,
+#prod-2>.material_img,
+#prod-4>.material_img,
+#prod-5>.material_img,
+#prod-6>.material_img,
+#prod-7>.material_img,
+#prod-8>.material_img,
+#prod-9>.material_img,
+#prod-10>.material_img {
+    width: auto;
+    height: 320px;
+}
+
+
+
+@media all and (max-device-width: 1440px) {
+    .catalogue__title {
+        font-size: var(--font-xxl);
+    }
+
+    .materials__items {
+        row-gap: 60px;
+    }
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 290px;
+    }
+}
+
+@media all and (max-device-width: 1280px) {
+    .materials__items {
+        row-gap: 50px;
+    }
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 250px;
+    }
+}
+
+@media all and (max-device-width: 1080px) {
+    .materials__items {
+        grid-template-columns: repeat(3, 360px);
+    }
+
+    .catalogue__subtitle {
+        font-size: var(--font-l);
+        width: 50%;
+    }
+}
+
+@media all and (max-device-width: 1024px) {
+    .catalogue__title {
+        font-size: var(--font-xl);
+    }
+
+    .material__name {
+        font-size: var(--font-m);
+    }
+
+    .materials__items {
+        grid-template-columns: repeat(3, 350px);
+    }
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 200px;
+    }
+}
+
+@media all and (max-device-width: 840px) {
+    .materials__items {
+        grid-template-columns: repeat(2, 310px);
+        grid-auto-rows: auto;
+        row-gap: 60px;
+    }
+
+    .catalogue__subtitle {
+        width: 60%;
+    }
+    .material__item {
+        grid-template-columns: 310px;
+    }
+
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 175px;
+    }
+}
+
+@media all and (max-device-width: 744px) {
+    .catalogue__subtitle {
+        font-size: var(--font-m);
+        width: 55%;
+    }
+}
+
+@media all and (max-device-width: 540px) {
+    .catalogue__title {
+        font-size: var(--font-l);
+        margin-bottom: 40px;
+    }
+
+    .materials__items {
+        grid-template-columns: repeat(2, 240px);
+        row-gap: 50px;
+    }
+
+    .material__item {
+        grid-template-columns: 240px;
+    }
+
+    .catalogue .container {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .material__name {
+        font-size: var(--font-s);
+    }
+
+    .catalogue__subtitle {
+        width: 75%;
+    }
+
+    #prod-7>.material__name {
+        width: 99%;
+    }
+
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 150px;
+    }
+    .catalogue {
+        margin-bottom: 80px;
+    }
+}
+
+@media all and (max-device-width: 431px) {
+    .material__name {
+        font-size: var(--font-xs);
+    }
+
+    .materials__items {
+        grid-template-columns: repeat(2, 190px);
+        row-gap: 40px;
+    }
+
+    .material__item {
+        grid-template-columns: 190px;
+    }
+
+    .catalogue__subtitle {
+        width: 95%;
+    }
+}
+
+@media all and (max-device-width: 414px) {
+    .materials__items {
+        grid-template-columns: repeat(2, 180px);
+        row-gap: 40px;
+    }
+
+    .material__item {
+        grid-template-columns:180px;
+    }
+
+    .catalogue__title {
+        margin-bottom: 30px;
+    }
+
+    .material_img,
+    #prod-1>.material_img,
+    #prod-2>.material_img,
+    #prod-3>.material_img,
+    #prod-4>.material_img,
+    #prod-5>.material_img,
+    #prod-6>.material_img,
+    #prod-7>.material_img,
+    #prod-8>.material_img,
+    #prod-9>.material_img,
+    #prod-10>.material_img {
+        height: 125px;
+    }
+
+    .catalogue__subtitle {
+        width: 100%;
+    }
+}
+
+@media all and (max-device-width: 390px) {
+    .catalogue__subtitle {
+        font-size: var(--font-s);
+        width: 90%;
+    }
+}
+
+@media all and (max-device-width: 375px) {
+    .catalogue__title {
+        font-size: var(--font-m);
+    }
+
+    .material__name {
+        font-size: var(--font-xxs);
+    }
+    .catalogue__subtitle {
+        font-size: var(--font-s);
+        width: 95%;
+    }
+    
+    .materials__items {
+        grid-template-columns: repeat(2, 150px);
+        row-gap: 40px;
+    }
+
+    .material__item {
+        grid-template-columns: 150px;
+    }
+    #prod-7>.material__name {
+        width: 107%;
+    }
+}
