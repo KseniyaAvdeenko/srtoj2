@@ -6,7 +6,8 @@
 }
 
 .footer .container {
-    flex-basis: 60.9%;
+    -ms-flex-preferred-size: 60.9%;
+        flex-basis: 60.9%;
 }
 
 .info__text {
@@ -18,11 +19,13 @@
 }
 
 .footer__info {
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
 }
 
 .footer__contacts {
-    flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
     font-size: var(--font-l);
 }
 
@@ -44,11 +47,13 @@
 
 @media all and (max-device-width: 1680px) {
     .footer .container {
-        flex-basis: 65%;
+        -ms-flex-preferred-size: 65%;
+            flex-basis: 65%;
     }
 
     .footer__info {
-        flex-basis: 65%;
+        -ms-flex-preferred-size: 65%;
+            flex-basis: 65%;
     }
 
     .copyrights {
@@ -58,11 +63,13 @@
 
 @media all and (max-device-width: 1530px) {
     .footer .container {
-        flex-basis: 70%;
+        -ms-flex-preferred-size: 70%;
+            flex-basis: 70%;
     }
 
     .footer__info {
-        flex-basis: 65%;
+        -ms-flex-preferred-size: 65%;
+            flex-basis: 65%;
     }
 
     .copyrights {
@@ -72,7 +79,8 @@
 
 @media all and (max-device-width: 1440px) {
     .footer .container {
-        flex-basis: 75%;
+        -ms-flex-preferred-size: 75%;
+            flex-basis: 75%;
     }
 
     .copyrights {
@@ -94,13 +102,15 @@
 
 @media all and (max-device-width: 1280px) {
     .footer .container {
-        flex-basis: 80%;
+        -ms-flex-preferred-size: 80%;
+            flex-basis: 80%;
     }
 }
 
 @media all and (max-device-width: 1080px) {
     .footer .container {
-        flex-basis: 90%;
+        -ms-flex-preferred-size: 90%;
+            flex-basis: 90%;
     }
 
     .footer__contacts,
@@ -120,6 +130,8 @@
     }
 
     .footer-contacts_media {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-size: var(--font-s);
     }
@@ -129,9 +141,15 @@
     }
 
     .footer .container {
-        flex-direction: column;
-        align-items: flex-start;
-        flex-basis: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         width: 75%;
     }
 
@@ -141,7 +159,8 @@
     }
 
     .footer__info {
-        flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
         width: 60%;
     }
 }
@@ -160,7 +179,8 @@
     }
 
     .footer .container {
-        flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
         width: 100%;
         padding: 0 30px;
     }
@@ -210,6 +230,4 @@
     .footer__info {
         width: 60%;
     }
-
-   
 }
