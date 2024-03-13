@@ -45,6 +45,10 @@
     display: none;
 }
 
+.header__contacts > .phone__items >.phone_num {
+    color: var(--white-color)!important;
+}
+
 @media all and (max-device-width: 1680px) {
     .header .container {
         -ms-flex-preferred-size: 65%;

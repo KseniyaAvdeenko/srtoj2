@@ -22,6 +22,7 @@
 .catalogue__subtitle {
     text-align: center;
     width: 60%;
+    color: var(--white-color)!important;
 }
 
 .material__item {
