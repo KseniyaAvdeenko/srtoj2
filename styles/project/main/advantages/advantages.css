@@ -258,7 +258,7 @@
     .advantages__img {
         height: 125px;
         right: 2px;
-        bottom: 80px;
+        bottom: 133px;
     }
     .advantages__item .advantages__text.text-1 {
         width: 76%;
@@ -271,5 +271,8 @@
     }
     .advantages__text.text-4 {
         width: 95%;
+    }
+    .advantages__title {
+        width: 75%;
     }
 }

@@ -12,7 +12,7 @@
 
 .navigation-menu {
     background-color: var(--accent-color);
-    flex-basis: 63.5%;
+    flex-basis: 68.5%;
     display: none;
     padding: 30px;
     color: var(--dark-color);
@@ -40,4 +40,10 @@
     font-size: var(--font-xxs);
     text-align: center;
     font-family: var(--font-family-extra);
+}
+
+.navigation__menu > .menu__item >.menu__link:hover {
+    color: var(--dark-color);
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
